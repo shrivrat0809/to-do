@@ -1,0 +1,55 @@
+*{
+  margin: 0.5vw;
+    }
+#container {
+  min-height: 100vh;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2vw;
+  border-radius: 5px;
+}
+#title,#description {
+  padding: 2vw;
+  border: 0.2px solid rgba(0, 0, 0, 0.347);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.deleteBtn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2vw;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 3vw;
+  margin: 4vw 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(213, 206, 206, 0.406);
+  
+}
+.task > div {
+  width: 100%;
+}
+
+.deleteBtn {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  background-color: red;
+}
